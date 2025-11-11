@@ -505,7 +505,7 @@ const StartAILanding = () => {
                   Qual o investimento e o que está incluído?
                 </AccordionTrigger>
                 <AccordionContent className="text-slate-300 text-base leading-relaxed">
-                  O investimento começa em R$ 10.000 e inclui: diagnóstico estratégico com liderança, mapeamento personalizado de ferramentas de IA, um dia de treinamento presencial intensivo, material exclusivo e templates, certificação de conclusão, e suporte pós-treinamento. O valor pode variar conforme tamanho da equipe e necessidades específicas.
+                  O investimento começa em R$ 10.000 e inclui: diagnóstico estratégico com liderança, mapeamento personalizado de ferramentas de IA, um dia de treinamento presencial intensivo, material exclusivo e templates, e certificação de conclusão. O valor pode variar conforme tamanho da equipe e necessidades específicas.
                 </AccordionContent>
               </AccordionItem>
 
@@ -541,7 +541,7 @@ const StartAILanding = () => {
                   Oferece suporte após o treinamento?
                 </AccordionTrigger>
                 <AccordionContent className="text-slate-300 text-base leading-relaxed">
-                  Sim! Incluímos um período de suporte pós-treinamento para dúvidas de implementação. Também oferecemos pacotes opcionais de mentoria continuada, sessões de follow-up e treinamentos avançados para empresas que desejam aprofundar ainda mais na jornada de IA.
+                  Não oferecemos suporte pós-treinamento. Nossa proposta é capacitar sua equipe para ter total autonomia na aplicação das ferramentas de IA. Fornecemos todo o material necessário, templates e documentação para que o time possa continuar evoluindo de forma independente após o programa.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
