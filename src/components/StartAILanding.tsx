@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { ArrowRight, Sparkles, Target, Users, TrendingUp, CheckCircle, Zap, Brain, Rocket, Search, Settings, Lightbulb } from 'lucide-react';
+import { ArrowRight, Sparkles, Target, Users, TrendingUp, CheckCircle, Zap, Brain, Rocket, Search, Settings, Lightbulb, HelpCircle } from 'lucide-react';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const StartAILanding = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -449,6 +450,109 @@ const StartAILanding = () => {
               <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6" />
             </button>
             <p className="text-slate-400 mt-4 text-sm sm:text-base px-4">Valores podem variar conforme tamanho da equipe e necessidades específicas</p>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 px-6">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-16">
+            <div className="inline-block mb-6">
+              <span className="bg-gradient-to-r from-purple-500/20 to-pink-500/20 border border-purple-500/30 text-purple-300 px-4 py-2 rounded-full text-sm font-medium">
+                ❓ Perguntas Frequentes
+              </span>
+            </div>
+            <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4">
+              Dúvidas sobre o <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">StartAI</span>?
+            </h2>
+            <p className="text-xl text-slate-300">
+              Tire suas principais dúvidas sobre o programa
+            </p>
+          </div>
+
+          <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-3xl p-8 border border-purple-500/30">
+            <Accordion type="single" collapsible className="space-y-4">
+              <AccordionItem value="item-1" className="border-b border-purple-500/20">
+                <AccordionTrigger className="text-white hover:text-purple-400 text-left text-lg font-semibold">
+                  O que diferencia o StartAI In Company de outros treinamentos de IA?
+                </AccordionTrigger>
+                <AccordionContent className="text-slate-300 text-base leading-relaxed">
+                  Não oferecemos apenas um treinamento genérico. Começamos com um diagnóstico estratégico da sua liderança para co-criar uma cultura de IA alinhada ao DNA da sua empresa. Depois, mapeamos as ferramentas específicas (assistentes e agentes de IA) que fazem sentido para cada área do seu negócio. O treinamento é 100% personalizado com base nesse diagnóstico.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-2" className="border-b border-purple-500/20">
+                <AccordionTrigger className="text-white hover:text-purple-400 text-left text-lg font-semibold">
+                  Qual o formato e duração do programa?
+                </AccordionTrigger>
+                <AccordionContent className="text-slate-300 text-base leading-relaxed">
+                  O programa é dividido em duas etapas: (1) Meio período online com a liderança para diagnóstico estratégico e definição da cultura de IA; (2) Um dia completo presencial de treinamento intensivo e prático com as ferramentas mapeadas. Total de aproximadamente 1,5 dias, otimizado para máxima eficiência.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-3" className="border-b border-purple-500/20">
+                <AccordionTrigger className="text-white hover:text-purple-400 text-left text-lg font-semibold">
+                  Quantas pessoas podem participar do treinamento?
+                </AccordionTrigger>
+                <AccordionContent className="text-slate-300 text-base leading-relaxed">
+                  Recomendamos grupos de 10 a 30 participantes para garantir interação e hands-on de qualidade. Para equipes maiores, podemos estruturar múltiplas turmas ou formatos customizados. O diagnóstico de liderança é feito com o C-level e principais decisores (até 10 pessoas).
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-4" className="border-b border-purple-500/20">
+                <AccordionTrigger className="text-white hover:text-purple-400 text-left text-lg font-semibold">
+                  Qual o investimento e o que está incluído?
+                </AccordionTrigger>
+                <AccordionContent className="text-slate-300 text-base leading-relaxed">
+                  O investimento começa em R$ 10.000 e inclui: diagnóstico estratégico com liderança, mapeamento personalizado de ferramentas de IA, um dia de treinamento presencial intensivo, material exclusivo e templates, certificação de conclusão, e suporte pós-treinamento. O valor pode variar conforme tamanho da equipe e necessidades específicas.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-5" className="border-b border-purple-500/20">
+                <AccordionTrigger className="text-white hover:text-purple-400 text-left text-lg font-semibold">
+                  Quais ferramentas de IA são ensinadas no treinamento?
+                </AccordionTrigger>
+                <AccordionContent className="text-slate-300 text-base leading-relaxed">
+                  As ferramentas são selecionadas após o diagnóstico, com base nas necessidades específicas da sua empresa. Trabalhamos com assistentes de IA (ChatGPT, Claude, Gemini), agentes inteligentes (automação e workflows), ferramentas de produtividade, geração de conteúdo, análise de dados e muito mais. O foco é no que realmente vai gerar valor para o seu negócio.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-6" className="border-b border-purple-500/20">
+                <AccordionTrigger className="text-white hover:text-purple-400 text-left text-lg font-semibold">
+                  É necessário ter conhecimento prévio em IA?
+                </AccordionTrigger>
+                <AccordionContent className="text-slate-300 text-base leading-relaxed">
+                  Não! O programa é desenhado para profissionais de todos os níveis de conhecimento. Começamos do zero e evoluímos até cases avançados. O importante é ter disposição para aprender e aplicar. Durante o diagnóstico, identificamos o nível do time e adaptamos o conteúdo.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-7" className="border-b border-purple-500/20">
+                <AccordionTrigger className="text-white hover:text-purple-400 text-left text-lg font-semibold">
+                  Quanto tempo leva para ver resultados práticos?
+                </AccordionTrigger>
+                <AccordionContent className="text-slate-300 text-base leading-relaxed">
+                  Nossos clientes reportam ganhos mensuráveis de produtividade em até 30 dias após a implementação. O treinamento é 100% hands-on, então os participantes já saem aplicando as ferramentas em projetos reais da empresa durante o próprio dia de treinamento.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-8" className="border-b-0">
+                <AccordionTrigger className="text-white hover:text-purple-400 text-left text-lg font-semibold">
+                  Oferece suporte após o treinamento?
+                </AccordionTrigger>
+                <AccordionContent className="text-slate-300 text-base leading-relaxed">
+                  Sim! Incluímos um período de suporte pós-treinamento para dúvidas de implementação. Também oferecemos pacotes opcionais de mentoria continuada, sessões de follow-up e treinamentos avançados para empresas que desejam aprofundar ainda mais na jornada de IA.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </div>
+
+          <div className="text-center mt-12">
+            <p className="text-slate-300 mb-6 text-lg">Ainda tem dúvidas?</p>
+            <button className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-full font-bold hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105 inline-flex items-center gap-2">
+              Falar com um Especialista
+              <HelpCircle className="w-5 h-5" />
+            </button>
           </div>
         </div>
       </section>
