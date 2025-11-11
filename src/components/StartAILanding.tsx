@@ -527,21 +527,12 @@ const StartAILanding = () => {
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-7" className="border-b border-purple-500/20">
+              <AccordionItem value="item-7" className="border-b-0">
                 <AccordionTrigger className="text-white hover:text-purple-400 text-left text-lg font-semibold">
                   Quanto tempo leva para ver resultados práticos?
                 </AccordionTrigger>
                 <AccordionContent className="text-slate-300 text-base leading-relaxed">
                   Nossos clientes reportam ganhos mensuráveis de produtividade em até 30 dias após a implementação. O treinamento é 100% hands-on, então os participantes já saem aplicando as ferramentas em projetos reais da empresa durante o próprio dia de treinamento.
-                </AccordionContent>
-              </AccordionItem>
-
-              <AccordionItem value="item-8" className="border-b-0">
-                <AccordionTrigger className="text-white hover:text-purple-400 text-left text-lg font-semibold">
-                  Oferece suporte após o treinamento?
-                </AccordionTrigger>
-                <AccordionContent className="text-slate-300 text-base leading-relaxed">
-                  Não oferecemos suporte pós-treinamento. Nossa proposta é capacitar sua equipe para ter total autonomia na aplicação das ferramentas de IA. Fornecemos todo o material necessário, templates e documentação para que o time possa continuar evoluindo de forma independente após o programa.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
