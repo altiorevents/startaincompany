@@ -94,7 +94,7 @@ const StartAILanding = () => {
               </h1>
               
               <p className="text-xl sm:text-2xl text-slate-300 leading-relaxed font-medium">
-                Diagnóstico estratégico + Treinamento personalizado para sua empresa dominar assistentes e agentes de IA em <span className="text-purple-400 font-bold">30 dias</span>.
+                Diagnóstico estratégico + Treinamento personalizado para sua empresa dominar assistentes e agentes de IA com <span className="text-purple-400 font-bold">resultados práticos no mesmo dia</span>.
               </p>
               
               <div className="grid sm:grid-cols-3 gap-4 bg-slate-900/50 border border-purple-500/30 rounded-2xl p-5 sm:p-6 backdrop-blur-sm">
@@ -106,8 +106,11 @@ const StartAILanding = () => {
                   <p className="text-3xl sm:text-4xl font-bold text-purple-400">100%</p>
                   <p className="text-sm text-slate-400 mt-1">personalizado</p>
                 </div>
-                <div className="text-center sm:text-left sm:col-span-1">
-                  <p className="text-base sm:text-lg font-bold text-purple-400 leading-tight">Resultados reais com treinamento prático e criação de agentes no mesmo dia</p>
+                <div className="text-center sm:text-left sm:col-span-1 flex items-center justify-center sm:justify-start">
+                  <div>
+                    <p className="text-lg sm:text-xl font-bold text-purple-400 leading-tight">Resultados no mesmo dia</p>
+                    <p className="text-xs sm:text-sm text-slate-400 mt-1">Criação prática de agentes de IA</p>
+                  </div>
                 </div>
               </div>
 
@@ -481,7 +484,7 @@ const StartAILanding = () => {
                   <TrendingUp className="w-7 h-7 sm:w-8 sm:h-8 text-purple-400 flex-shrink-0" />
                   <div>
                     <p className="text-white font-bold text-base sm:text-lg">ROI Esperado</p>
-                    <p className="text-sm sm:text-base text-slate-300">Ganhos mensuráveis de produtividade em até 30 dias após implementação</p>
+                    <p className="text-sm sm:text-base text-slate-300">Resultados práticos e aplicação imediata durante o próprio treinamento</p>
                   </div>
                 </div>
               </div>
@@ -576,7 +579,7 @@ const StartAILanding = () => {
                   Quanto tempo leva para ver resultados práticos?
                 </AccordionTrigger>
                 <AccordionContent className="text-slate-300 text-base leading-relaxed">
-                  Nossos clientes reportam ganhos mensuráveis de produtividade em até 30 dias após a implementação. O treinamento é 100% hands-on, então os participantes já saem aplicando as ferramentas em projetos reais da empresa durante o próprio dia de treinamento.
+                  Os resultados são imediatos! O treinamento é 100% hands-on, então os participantes já saem criando e aplicando agentes de IA em projetos reais da empresa durante o próprio dia de treinamento. Você verá sua equipe construindo soluções práticas ao vivo.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
