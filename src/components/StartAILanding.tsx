@@ -106,9 +106,8 @@ const StartAILanding = () => {
                   <p className="text-3xl sm:text-4xl font-bold text-purple-400">100%</p>
                   <p className="text-sm text-slate-400 mt-1">personalizado</p>
                 </div>
-                <div className="text-center sm:text-left">
-                  <p className="text-3xl sm:text-4xl font-bold text-purple-400">30</p>
-                  <p className="text-sm text-slate-400 mt-1">dias para resultados</p>
+                <div className="text-center sm:text-left sm:col-span-1">
+                  <p className="text-base sm:text-lg font-bold text-purple-400 leading-tight">Resultados reais com treinamento prático e criação de agentes no mesmo dia</p>
                 </div>
               </div>
 
