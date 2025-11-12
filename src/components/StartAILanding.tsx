@@ -88,32 +88,40 @@ const StartAILanding = () => {
                 </span>
               </div>
               
-              <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white leading-tight">
-                Sua empresa está
-                <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent"> surfando na onda da IA</span>, mas consegue navegar e direcionar estratégias?
+              <h1 className="text-5xl sm:text-6xl lg:text-8xl font-black text-white leading-[1.1]">
+                Transforme IA em
+                <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent"> Vantagem Competitiva</span>
               </h1>
               
-              <p className="text-lg sm:text-xl text-slate-300 leading-relaxed">
-                Mergulhamos na realidade do seu negócio e na cultura do seu time para criar um treinamento personalizado com <span className="text-purple-400 font-semibold">100% de fit</span> com as necessidades da sua empresa.
+              <p className="text-xl sm:text-2xl text-slate-300 leading-relaxed font-medium">
+                Diagnóstico estratégico + Treinamento personalizado para sua empresa dominar assistentes e agentes de IA em <span className="text-purple-400 font-bold">30 dias</span>.
               </p>
               
-              <div className="bg-slate-900/50 border border-purple-500/30 rounded-2xl p-5 sm:p-6 backdrop-blur-sm">
-                <p className="text-base sm:text-lg text-white font-medium">
-                  Antes de treinar, nós entendemos.
-                </p>
-                <p className="text-base sm:text-lg text-purple-400 font-bold mt-2">
-                  Antes de implementar, nós diagnosticamos.
-                </p>
+              <div className="grid sm:grid-cols-3 gap-4 bg-slate-900/50 border border-purple-500/30 rounded-2xl p-5 sm:p-6 backdrop-blur-sm">
+                <div className="text-center sm:text-left">
+                  <p className="text-3xl sm:text-4xl font-bold text-purple-400">1.5</p>
+                  <p className="text-sm text-slate-400 mt-1">dias de programa</p>
+                </div>
+                <div className="text-center sm:text-left">
+                  <p className="text-3xl sm:text-4xl font-bold text-purple-400">100%</p>
+                  <p className="text-sm text-slate-400 mt-1">personalizado</p>
+                </div>
+                <div className="text-center sm:text-left">
+                  <p className="text-3xl sm:text-4xl font-bold text-purple-400">30</p>
+                  <p className="text-sm text-slate-400 mt-1">dias para resultados</p>
+                </div>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                <button className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold text-base sm:text-lg hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2">
-                  Solicitar Diagnóstico
-                  <ArrowRight className="w-5 h-5" />
+                <button className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 sm:px-10 py-4 sm:py-5 rounded-full font-black text-lg sm:text-xl hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2 group">
+                  Quero Transformar Minha Empresa
+                  <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
                 </button>
-                <button className="border-2 border-purple-500 text-purple-300 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold text-base sm:text-lg hover:bg-purple-500/10 transition-all duration-300">
-                  Como Funciona
-                </button>
+              </div>
+
+              <div className="flex items-center gap-3 text-slate-400 text-sm">
+                <CheckCircle className="w-5 h-5 text-purple-400" />
+                <span>Sem compromisso • Diagnóstico gratuito</span>
               </div>
             </div>
 
