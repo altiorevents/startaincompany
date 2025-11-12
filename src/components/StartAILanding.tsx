@@ -177,7 +177,9 @@ const StartAILanding = () => {
               'VIDRAÇARIA PARANÁ',
               'GIRO SA',
               'LA RICCI',
-              'PTX 360'
+              'PTX 360',
+              'AL JARIRI',
+              'TMC'
             ].map((client, index) => (
               <div
                 key={index}
