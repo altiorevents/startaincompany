@@ -157,6 +157,41 @@ const StartAILanding = () => {
         </div>
       </section>
 
+      {/* Clients Section */}
+      <section className="py-16 px-6 bg-slate-900/50">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <p className="text-slate-400 text-sm sm:text-base font-medium uppercase tracking-wider mb-8">
+              Empresas que confiam no StartAI
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 sm:gap-8">
+            {[
+              'RSF',
+              'MADIS',
+              'DIMEP',
+              'SANNTI HOST',
+              'SIZZE',
+              'LAURO PAOLINI',
+              'VIDRAÇARIA PARANÁ',
+              'GIRO SA',
+              'LA RICCI',
+              'PTX 360'
+            ].map((client, index) => (
+              <div
+                key={index}
+                className="bg-gradient-to-br from-slate-900/80 to-slate-800/80 rounded-xl p-6 sm:p-8 border border-purple-500/20 hover:border-purple-500/40 transition-all duration-300 hover:scale-105 flex items-center justify-center group"
+              >
+                <span className="text-slate-300 group-hover:text-white font-bold text-center text-sm sm:text-base transition-colors duration-300">
+                  {client}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Benefits Section */}
       <section className="py-20 px-6 bg-slate-900/30">
         <div className="max-w-7xl mx-auto">
