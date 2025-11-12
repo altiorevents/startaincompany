@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowRight, Sparkles, Target, Users, TrendingUp, CheckCircle, Zap, Brain, Rocket, Search, Settings, Lightbulb, HelpCircle } from 'lucide-react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import dimepLogo from '@/assets/dimep-logo.png';
 
 const StartAILanding = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -177,10 +178,15 @@ const StartAILanding = () => {
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 sm:gap-8">
+            {/* Dimep Logo */}
+            <div className="bg-gradient-to-br from-slate-900/80 to-slate-800/80 rounded-xl p-6 sm:p-8 border border-purple-500/20 hover:border-purple-500/40 transition-all duration-300 hover:scale-105 flex items-center justify-center group">
+              <img src={dimepLogo} alt="Dimep Sistemas" className="max-w-full h-12 object-contain brightness-90 group-hover:brightness-100 transition-all duration-300" />
+            </div>
+            
+            {/* Text-based clients */}
             {[
               'RSF',
               'MADIS',
-              'DIMEP',
               'SANNTI HOST',
               'SIZZE',
               'LAURO PAOLINI',
