@@ -440,19 +440,19 @@ const StartAILanding = () => {
                   </div>
                   <div className="flex-1">
                     <h3 className="text-lg sm:text-xl font-bold text-white mb-2">Mapeamento Personalizado de Ferramentas</h3>
-                    <p className="text-sm sm:text-base text-slate-300 mb-3">Seleção estratégica das melhores ferramentas de IA para cada área do seu negócio</p>
+                    <p className="text-sm sm:text-base text-slate-300 mb-3">Seleção estratégica das ferramentas de IA mais adequadas para cada área do negócio, com foco em orientar a empresa na escolha e no uso.</p>
                     <ul className="space-y-2 text-xs sm:text-sm text-slate-400">
                       <li className="flex items-center gap-2">
                         <div className="w-1.5 h-1.5 bg-purple-400 rounded-full flex-shrink-0"></div>
-                        Assistentes de IA por função
+                        Curadoria de ferramentas de IA por função (ex.: ChatGPT, Gemini, Microsoft Copilot, Gamma, Lovable, entre outras.)
                       </li>
                       <li className="flex items-center gap-2">
                         <div className="w-1.5 h-1.5 bg-purple-400 rounded-full flex-shrink-0"></div>
-                        Agentes inteligentes para automação
+                        Recomendações de agentes inteligentes e automações possíveis
                       </li>
                       <li className="flex items-center gap-2">
                         <div className="w-1.5 h-1.5 bg-purple-400 rounded-full flex-shrink-0"></div>
-                        Stack tecnológico otimizado
+                        Orientação para estruturação de um stack tecnológico otimizado
                       </li>
                     </ul>
                   </div>
@@ -466,23 +466,23 @@ const StartAILanding = () => {
                   </div>
                   <div className="flex-1">
                     <h3 className="text-lg sm:text-xl font-bold text-white mb-2">Treinamento Intensivo Presencial</h3>
-                    <p className="text-sm sm:text-base text-slate-300 mb-3">Um dia completo de imersão prática com as ferramentas mapeadas</p>
+                    <p className="text-sm sm:text-base text-slate-300 mb-3">Um dia completo de imersão prática para capacitar a equipe no uso das ferramentas selecionadas.</p>
                     <ul className="space-y-2 text-xs sm:text-sm text-slate-400">
                       <li className="flex items-center gap-2">
                         <div className="w-1.5 h-1.5 bg-purple-400 rounded-full flex-shrink-0"></div>
-                        Hands-on com casos reais da empresa
+                        Atividades práticas guiadas com cenários reais da empresa
                       </li>
                       <li className="flex items-center gap-2">
                         <div className="w-1.5 h-1.5 bg-purple-400 rounded-full flex-shrink-0"></div>
-                        Implementação de projetos piloto
+                        Simulações e exercícios para aplicação interna
                       </li>
                       <li className="flex items-center gap-2">
                         <div className="w-1.5 h-1.5 bg-purple-400 rounded-full flex-shrink-0"></div>
-                        Material de referência e templates
+                        Materiais de apoio e templates
                       </li>
                       <li className="flex items-center gap-2">
                         <div className="w-1.5 h-1.5 bg-purple-400 rounded-full flex-shrink-0"></div>
-                        Certificação de conclusão
+                        Certificação de participação
                       </li>
                     </ul>
                   </div>
