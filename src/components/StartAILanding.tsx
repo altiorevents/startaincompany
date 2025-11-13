@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { ArrowRight, Sparkles, Target, Users, TrendingUp, CheckCircle, Zap, Brain, Rocket, Search, Settings, Lightbulb, HelpCircle } from 'lucide-react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import dimepLogo from '@/assets/dimep-logo.png';
+import startaiLogo from '@/assets/startai-logo.png';
 
 const StartAILanding = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -66,11 +67,8 @@ const StartAILanding = () => {
       {/* Header */}
       <header className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-slate-950/95 backdrop-blur-lg shadow-lg' : 'bg-transparent'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex justify-between items-center">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center">
-              <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
-            </div>
-            <span className="text-xl sm:text-2xl font-bold text-white">StartAI <span className="text-purple-400 text-sm sm:text-lg">In Company</span></span>
+          <div className="flex items-center">
+            <img src={startaiLogo} alt="StartAI In Company" className="h-8 sm:h-10 w-auto" />
           </div>
           <button className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-4 sm:px-6 py-2 rounded-full text-sm sm:text-base font-semibold hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105">
             Falar com Especialista
