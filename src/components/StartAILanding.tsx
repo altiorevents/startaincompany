@@ -17,7 +17,7 @@ const StartAILanding = () => {
     { name: 'Dimep Sistemas', logo: dimepLogo, link: 'https://dimep.com.br' },
     { name: 'RSF', logo: null, link: '#' },
     { name: 'MADIS', logo: null, link: '#' },
-    { name: 'SANNTI HOST', logo: null, link: '#' },
+    { name: 'SANNTI HOST', logo: 'https://cdn.startai.digital/startai-in-company/in-company/sannti%20cloud%20branco.png', link: '#' },
     { name: 'SIZZE', logo: null, link: '#' },
     { name: 'LAURO PAOLINI', logo: null, link: '#' },
     { name: 'VIDRAÇARIA PARANÁ', logo: null, link: '#' },
