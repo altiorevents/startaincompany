@@ -13,6 +13,19 @@ const StartAILanding = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const clients = [
+    { name: 'Dimep Sistemas', logo: dimepLogo, link: 'https://dimep.com.br' },
+    { name: 'RSF', logo: null, link: '#' },
+    { name: 'MADIS', logo: null, link: '#' },
+    { name: 'SANNTI HOST', logo: null, link: '#' },
+    { name: 'SIZZE', logo: null, link: '#' },
+    { name: 'LAURO PAOLINI', logo: null, link: '#' },
+    { name: 'VIDRAÇARIA PARANÁ', logo: null, link: '#' },
+    { name: 'GIRO SA', logo: null, link: '#' },
+    { name: 'LA RICCI', logo: null, link: '#' },
+    { name: 'PTX 360', logo: null, link: '#' }
+  ];
+
   const benefits = [
     {
       icon: <Search className="w-8 h-8" />,
@@ -176,33 +189,26 @@ const StartAILanding = () => {
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 sm:gap-8">
-            {/* Dimep Logo */}
-            <div className="bg-gradient-to-br from-slate-900/80 to-slate-800/80 rounded-xl p-6 sm:p-8 border border-purple-500/20 hover:border-purple-500/40 transition-all duration-300 hover:scale-105 flex items-center justify-center group">
-              <img src={dimepLogo} alt="Dimep Sistemas" className="max-w-full h-12 object-contain brightness-90 group-hover:brightness-100 transition-all duration-300" />
-            </div>
-            
-            {/* Text-based clients */}
-            {[
-              'RSF',
-              'MADIS',
-              'SANNTI HOST',
-              'SIZZE',
-              'LAURO PAOLINI',
-              'VIDRAÇARIA PARANÁ',
-              'GIRO SA',
-              'LA RICCI',
-              'PTX 360',
-              'AL JARIRI',
-              'TMC'
-            ].map((client, index) => (
-              <div
+            {clients.map((client, index) => (
+              <a
                 key={index}
-                className="bg-gradient-to-br from-slate-900/80 to-slate-800/80 rounded-xl p-6 sm:p-8 border border-purple-500/20 hover:border-purple-500/40 transition-all duration-300 hover:scale-105 flex items-center justify-center group"
+                href={client.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gradient-to-br from-slate-900/80 to-slate-800/80 rounded-xl p-6 sm:p-8 border border-purple-500/20 hover:border-purple-500/40 transition-all duration-300 hover:scale-105 flex items-center justify-center group cursor-pointer"
               >
-                <span className="text-slate-300 group-hover:text-white font-bold text-center text-sm sm:text-base transition-colors duration-300">
-                  {client}
-                </span>
-              </div>
+                {client.logo ? (
+                  <img 
+                    src={client.logo} 
+                    alt={client.name} 
+                    className="max-w-full h-12 object-contain brightness-90 group-hover:brightness-100 transition-all duration-300" 
+                  />
+                ) : (
+                  <span className="text-slate-300 group-hover:text-white font-bold text-center text-sm sm:text-base transition-colors duration-300">
+                    {client.name}
+                  </span>
+                )}
+              </a>
             ))}
           </div>
         </div>
