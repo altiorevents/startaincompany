@@ -14,7 +14,7 @@ const StartAILanding = () => {
   }, []);
 
   const clients = [
-    { name: 'Dimep Sistemas', logo: dimepLogo, link: 'https://dimep.com.br' },
+    { name: 'Dimep Sistemas', logo: 'https://s3.amazonaws.com/site.dimep.com.br/uploads/images/blog/logo.png', link: 'https://dimep.com.br' },
     { name: 'TMC', logo: 'https://static-assets.mousar.com/global/tmc-white-45.png', link: '#' },
     { name: 'MADIS', logo: 'https://madis.com.br/wp-content/uploads/2024/08/Logo-madis-solucoes-branco-1-1024x224.png', link: '#' },
     { name: 'SANNTI HOST', logo: 'https://cdn.startai.digital/startai-in-company/in-company/sannti%20cloud%20branco.png', link: '#' },
