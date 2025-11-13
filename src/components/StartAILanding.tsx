@@ -15,15 +15,15 @@ const StartAILanding = () => {
 
   const clients = [
     { name: 'Dimep Sistemas', logo: dimepLogo, link: 'https://dimep.com.br' },
-    { name: 'RSF', logo: null, link: '#' },
+    { name: 'TMC', logo: 'https://static-assets.mousar.com/global/tmc-white-45.png', link: '#' },
     { name: 'MADIS', logo: 'https://madis.com.br/wp-content/uploads/2024/08/Logo-madis-solucoes-branco-1-1024x224.png', link: '#' },
     { name: 'SANNTI HOST', logo: 'https://cdn.startai.digital/startai-in-company/in-company/sannti%20cloud%20branco.png', link: '#' },
-    { name: 'SIZZE', logo: null, link: '#' },
-    { name: 'LAURO PAOLINI', logo: null, link: '#' },
-    { name: 'VIDRAÇARIA PARANÁ', logo: null, link: '#' },
-    { name: 'GIRO SA', logo: null, link: '#' },
+    { name: 'SIZZE', logo: 'https://cdn.startai.digital/startai-in-company/in-company/sizze_company_logo-removebg-preview.png', link: '#' },
+    { name: 'LAURO PAOLINI', logo: 'https://acdn-us.mitiendanube.com/stores/002/247/867/themes/common/logo-89699148-1672751631-b0cef5538db3300d33f22c6cc403f9431672751631-480-0.png?0', link: '#' },
+    { name: 'VIDRAÇARIA PARANÁ', logo: 'https://vidracariaparanasp.com.br/wp-content/webp-express/webp-images/uploads/2023/09/Logo-Vidracaria-Parana-Fundo-Cinza.jpg.webp', link: '#' },
+    { name: 'GIRO SA', logo: 'https://cdn.startai.digital/startai-in-company/in-company/generated-image__1_-removebg-preview.png', link: '#' },
     { name: 'LA RICCI', logo: null, link: '#' },
-    { name: 'PTX 360', logo: null, link: '#' }
+    { name: 'PTX 360', logo: 'https://ptx360.com.br/wp-content/uploads/2025/05/Logo-PTX-Extenso-F-Azul.png', link: '#' }
   ];
 
   const benefits = [
