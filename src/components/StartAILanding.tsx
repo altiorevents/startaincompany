@@ -502,7 +502,7 @@ const StartAILanding = () => {
           </div>
 
           <div className="text-center mt-12">
-            <a href="#investimento" className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 sm:px-10 py-4 sm:py-5 rounded-full font-bold text-base sm:text-lg hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105 inline-flex items-center gap-3">
+            <a href="https://ptx360.com.br/?fluent-form=3" className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 sm:px-10 py-4 sm:py-5 rounded-full font-bold text-base sm:text-lg hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105 inline-flex items-center gap-3">
               Solicitar Proposta Detalhada
               <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6" />
             </a>
