@@ -16,7 +16,7 @@ const StartAILanding = () => {
   const clients = [
     { name: 'Dimep Sistemas', logo: dimepLogo, link: 'https://dimep.com.br' },
     { name: 'RSF', logo: null, link: '#' },
-    { name: 'MADIS', logo: null, link: '#' },
+    { name: 'MADIS', logo: 'https://madis.com.br/wp-content/uploads/2024/08/Logo-madis-solucoes-branco-1-1024x224.png', link: '#' },
     { name: 'SANNTI HOST', logo: 'https://cdn.startai.digital/startai-in-company/in-company/sannti%20cloud%20branco.png', link: '#' },
     { name: 'SIZZE', logo: null, link: '#' },
     { name: 'LAURO PAOLINI', logo: null, link: '#' },
