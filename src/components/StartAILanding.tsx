@@ -82,7 +82,7 @@ const StartAILanding = () => {
           <div className="flex items-center">
             <img src={startaiLogo} alt="StartAI In Company" className="h-8 sm:h-10 w-auto" />
           </div>
-          <a href="#investimento" className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-4 sm:px-6 py-2 rounded-full text-sm sm:text-base font-semibold hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105">
+          <a href="https://ptx360.com.br/?fluent-form=3" className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-4 sm:px-6 py-2 rounded-full text-sm sm:text-base font-semibold hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105">
             Falar com Especialista
           </a>
         </div>
@@ -126,7 +126,7 @@ const StartAILanding = () => {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                <a href="#investimento" className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 sm:px-10 py-4 sm:py-5 rounded-full font-black text-lg sm:text-xl hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2 group">
+                <a href="https://ptx360.com.br/?fluent-form=3" className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 sm:px-10 py-4 sm:py-5 rounded-full font-black text-lg sm:text-xl hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2 group">
                   Quero Transformar Minha Empresa
                   <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
                 </a>
@@ -299,7 +299,7 @@ const StartAILanding = () => {
                 Um programa completo desde o diagnóstico até a implementação prática de assistentes e agentes de IA no seu negócio.
               </p>
               <div className="flex gap-4">
-                <a href="#investimento" className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-full font-bold hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105 flex items-center gap-2">
+                <a href="https://ptx360.com.br/?fluent-form=3" className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-full font-bold hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105 flex items-center gap-2">
                   Agendar Diagnóstico
                   <Rocket className="w-5 h-5" />
                 </a>
@@ -596,7 +596,7 @@ const StartAILanding = () => {
 
           <div className="text-center mt-12">
             <p className="text-slate-300 mb-6 text-lg">Ainda tem dúvidas?</p>
-            <a href="#investimento" className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-full font-bold hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105 inline-flex items-center gap-2">
+            <a href="https://ptx360.com.br/?fluent-form=3" className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-full font-bold hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105 inline-flex items-center gap-2">
               Falar com um Especialista
               <HelpCircle className="w-5 h-5" />
             </a>
@@ -617,7 +617,7 @@ const StartAILanding = () => {
               <p className="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
                 Comece com um diagnóstico personalizado e descubra como assistentes e agentes de IA podem revolucionar sua operação.
               </p>
-              <a href="#investimento" className="bg-white text-purple-900 px-10 py-5 rounded-full font-bold text-lg hover:shadow-2xl hover:shadow-white/30 transition-all duration-300 hover:scale-105 inline-flex items-center gap-3">
+              <a href="https://ptx360.com.br/?fluent-form=3" className="bg-white text-purple-900 px-10 py-5 rounded-full font-bold text-lg hover:shadow-2xl hover:shadow-white/30 transition-all duration-300 hover:scale-105 inline-flex items-center gap-3">
                 Agendar Diagnóstico Gratuito
                 <ArrowRight className="w-6 h-6" />
               </a>
