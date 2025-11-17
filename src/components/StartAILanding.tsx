@@ -72,7 +72,6 @@ const StartAILanding = () => {
     "Treinamento em assistentes de IA",
     "Treinamento em agentes inteligentes",
     "Material exclusivo e casos práticos",
-    "Certificação de conclusão"
   ];
 
   return (
