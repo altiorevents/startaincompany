@@ -54,8 +54,139 @@ const StartAILanding = () => {
         </div>
       </section>
 
+      {/* CLIENTES */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-slate-900/50">
+        <div className="container mx-auto">
+          <div className="text-center mb-12">
+            <p className="text-slate-400 text-sm sm:text-base font-medium uppercase tracking-wider">
+              Empresas que confiam no StartAI
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 sm:gap-8 max-w-7xl mx-auto">
+            <a
+              href="https://dimep.com.br"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 sm:p-8 border border-border hover:border-primary/40 transition-all duration-300 hover:scale-105 flex items-center justify-center group"
+            >
+              <img 
+                src="https://s3.amazonaws.com/site.dimep.com.br/uploads/images/blog/logo.png" 
+                alt="Dimep Sistemas" 
+                className="max-w-full h-12 object-contain brightness-90 group-hover:brightness-100 transition-all duration-300" 
+              />
+            </a>
+            
+            <a
+              href="https://mousar.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 sm:p-8 border border-border hover:border-primary/40 transition-all duration-300 hover:scale-105 flex items-center justify-center group"
+            >
+              <img 
+                src="https://static-assets.mousar.com/global/tmc-white-45.png" 
+                alt="TMC" 
+                className="max-w-full h-12 object-contain brightness-90 group-hover:brightness-100 transition-all duration-300" 
+              />
+            </a>
+            
+            <a
+              href="#"
+              className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 sm:p-8 border border-border hover:border-primary/40 transition-all duration-300 hover:scale-105 flex items-center justify-center group"
+            >
+              <img 
+                src="https://madis.com.br/wp-content/uploads/2024/08/Logo-madis-solucoes-branco-1-1024x224.png" 
+                alt="MADIS" 
+                className="max-w-full h-12 object-contain brightness-90 group-hover:brightness-100 transition-all duration-300" 
+              />
+            </a>
+            
+            <a
+              href="https://sannti.com/pt-BR/host"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 sm:p-8 border border-border hover:border-primary/40 transition-all duration-300 hover:scale-105 flex items-center justify-center group"
+            >
+              <img 
+                src="https://cdn.startai.digital/startai-in-company/in-company/sannti%20cloud%20branco.png" 
+                alt="SANNTI" 
+                className="max-w-full h-12 object-contain brightness-90 group-hover:brightness-100 transition-all duration-300" 
+              />
+            </a>
+            
+            <a
+              href="#"
+              className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 sm:p-8 border border-border hover:border-primary/40 transition-all duration-300 hover:scale-105 flex items-center justify-center group"
+            >
+              <img 
+                src="https://cdn.startai.digital/startai-in-company/in-company/sizze_company_logo-removebg-preview.png" 
+                alt="SIZZE" 
+                className="max-w-full h-12 object-contain brightness-90 group-hover:brightness-100 transition-all duration-300" 
+              />
+            </a>
+            
+            <a
+              href="#"
+              className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 sm:p-8 border border-border hover:border-primary/40 transition-all duration-300 hover:scale-105 flex items-center justify-center group"
+            >
+              <img 
+                src="https://acdn-us.mitiendanube.com/stores/002/247/867/themes/common/logo-89699148-1672751631-b0cef5538db3300d33f22c6cc403f9431672751631-480-0.png?0" 
+                alt="LAURO PAOLINI" 
+                className="max-w-full h-12 object-contain brightness-90 group-hover:brightness-100 transition-all duration-300" 
+              />
+            </a>
+            
+            <a
+              href="#"
+              className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 sm:p-8 border border-border hover:border-primary/40 transition-all duration-300 hover:scale-105 flex items-center justify-center group"
+            >
+              <img 
+                src="https://vidracariaparanasp.com.br/wp-content/webp-express/webp-images/uploads/2023/09/Logo-Vidracaria-Parana-Fundo-Cinza.jpg.webp" 
+                alt="VIDRAÇARIA PARANÁ" 
+                className="max-w-full h-12 object-contain brightness-90 group-hover:brightness-100 transition-all duration-300" 
+              />
+            </a>
+            
+            <a
+              href="#"
+              className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 sm:p-8 border border-border hover:border-primary/40 transition-all duration-300 hover:scale-105 flex items-center justify-center group"
+            >
+              <img 
+                src="https://cdn.startai.digital/startai-in-company/in-company/generated-image__1_-removebg-preview.png" 
+                alt="GIRO SA" 
+                className="max-w-full h-12 object-contain brightness-90 group-hover:brightness-100 transition-all duration-300" 
+              />
+            </a>
+            
+            <a
+              href="#"
+              className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 sm:p-8 border border-border hover:border-primary/40 transition-all duration-300 hover:scale-105 flex items-center justify-center group"
+            >
+              <img 
+                src="https://cdn.startai.digital/startai-in-company/in-company/logo_ricci-removebg-preview.png" 
+                alt="LA RICCI" 
+                className="max-w-full h-12 object-contain brightness-90 group-hover:brightness-100 transition-all duration-300" 
+              />
+            </a>
+            
+            <a
+              href="https://ptx360.com.br"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 sm:p-8 border border-border hover:border-primary/40 transition-all duration-300 hover:scale-105 flex items-center justify-center group"
+            >
+              <img 
+                src="https://ptx360.com.br/wp-content/uploads/2025/05/Logo-PTX-Extenso-F-Azul.png" 
+                alt="PTX 360" 
+                className="max-w-full h-12 object-contain brightness-90 group-hover:brightness-100 transition-all duration-300" 
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* SEÇÃO DE PROBLEMA */}
-      <section className="py-20 sm:py-32 px-4 sm:px-6 lg:px-8 bg-slate-900/50">
+      <section className="py-20 sm:py-32 px-4 sm:px-6 lg:px-8 bg-slate-900/30">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto text-center mb-16 animate-fade-in">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-6">
