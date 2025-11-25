@@ -337,29 +337,87 @@ const StartAILanding = () => {
                 </p>
               </div>
 
-              <div className="space-y-4 mb-12">
-                <div className="flex items-start gap-4">
-                  <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                  <span className="text-lg text-slate-200">Diagnóstico Estratégico com a Liderança</span>
-                </div>
-                <div className="flex items-start gap-4">
-                  <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                  <span className="text-lg text-slate-200">Engenharia de Assistentes Personalizados</span>
-                </div>
-                <div className="flex items-start gap-4">
-                  <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                  <span className="text-lg text-slate-200">Imersão Presencial Hands-On (1 Dia)</span>
-                </div>
-                <div className="flex items-start gap-4">
-                  <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                  <span className="text-lg text-slate-200">Material de Apoio e Biblioteca de Prompts</span>
+              {/* Value Stack */}
+              <div className="bg-slate-900/50 rounded-2xl p-8 mb-8 border border-primary/30">
+                <h3 className="text-2xl font-bold mb-6 text-center">O que está incluso:</h3>
+                
+                <div className="space-y-4">
+                  <div className="flex items-center justify-between pb-4 border-b border-slate-700">
+                    <div className="flex items-start gap-3">
+                      <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                      <div>
+                        <p className="text-lg font-semibold text-slate-200">Diagnóstico Estratégico com a Liderança</p>
+                        <p className="text-sm text-slate-400">Meio período de análise profunda</p>
+                      </div>
+                    </div>
+                    <span className="text-lg font-bold text-slate-300">R$ 5.000</span>
+                  </div>
+
+                  <div className="flex items-center justify-between pb-4 border-b border-slate-700">
+                    <div className="flex items-start gap-3">
+                      <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                      <div>
+                        <p className="text-lg font-semibold text-slate-200">Engenharia de Assistentes Personalizados</p>
+                        <p className="text-sm text-slate-400">Desenvolvimento customizado de prompts</p>
+                      </div>
+                    </div>
+                    <span className="text-lg font-bold text-slate-300">R$ 8.000</span>
+                  </div>
+
+                  <div className="flex items-center justify-between pb-4 border-b border-slate-700">
+                    <div className="flex items-start gap-3">
+                      <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                      <div>
+                        <p className="text-lg font-semibold text-slate-200">Imersão Presencial Hands-On</p>
+                        <p className="text-sm text-slate-400">1 dia completo de treinamento prático</p>
+                      </div>
+                    </div>
+                    <span className="text-lg font-bold text-slate-300">R$ 12.000</span>
+                  </div>
+
+                  <div className="flex items-center justify-between pb-4 border-b border-slate-700">
+                    <div className="flex items-start gap-3">
+                      <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                      <div>
+                        <p className="text-lg font-semibold text-slate-200">Material de Apoio e Biblioteca de Prompts</p>
+                        <p className="text-sm text-slate-400">Recursos exclusivos para autonomia</p>
+                      </div>
+                    </div>
+                    <span className="text-lg font-bold text-slate-300">R$ 3.000</span>
+                  </div>
+
+                  <div className="flex items-center justify-between pb-4 border-b border-slate-700">
+                    <div className="flex items-start gap-3">
+                      <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                      <div>
+                        <p className="text-lg font-semibold text-slate-200">Suporte Pós-Implementação</p>
+                        <p className="text-sm text-slate-400">30 dias de acompanhamento</p>
+                      </div>
+                    </div>
+                    <span className="text-lg font-bold text-slate-300">R$ 2.000</span>
+                  </div>
+
+                  <div className="flex items-center justify-between pt-6 pb-4">
+                    <div>
+                      <p className="text-2xl font-black text-white">Valor Total</p>
+                      <p className="text-sm text-slate-400">Se contratado separadamente</p>
+                    </div>
+                    <span className="text-3xl font-black text-slate-400 line-through">R$ 30.000</span>
+                  </div>
                 </div>
               </div>
 
+
               <div className="text-center mb-12">
-                <p className="text-slate-400 text-lg mb-2">Investimento Único a partir de</p>
-                <p className="text-5xl sm:text-6xl md:text-7xl font-black bg-gradient-to-r from-primary to-pink-600 bg-clip-text text-transparent">
+                <div className="inline-block bg-gradient-to-r from-primary/20 to-pink-600/20 border border-primary/50 rounded-full px-6 py-2 mb-4">
+                  <span className="text-primary font-bold text-lg">🎯 OFERTA ESPECIAL DE LANÇAMENTO</span>
+                </div>
+                <p className="text-slate-300 text-lg mb-3">Investimento Único de apenas</p>
+                <p className="text-5xl sm:text-6xl md:text-7xl font-black bg-gradient-to-r from-primary to-pink-600 bg-clip-text text-transparent mb-4">
                   R$ 10.000,00
+                </p>
+                <p className="text-green-400 text-xl font-bold">
+                  Economia de R$ 20.000 (67% de desconto)
                 </p>
               </div>
 
@@ -371,6 +429,7 @@ const StartAILanding = () => {
                   SOLICITAR PROPOSTA DETALHADA
                   <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
                 </a>
+                <p className="text-slate-400 text-sm mt-4">🔒 Sem compromisso • Resposta em até 24h</p>
               </div>
             </div>
           </div>
