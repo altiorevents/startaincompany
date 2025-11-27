@@ -372,7 +372,7 @@ const StartAILanding = () => {
                         <p className="text-sm text-slate-400">Meio período de análise profunda</p>
                       </div>
                     </div>
-                    <span className="text-lg font-bold text-slate-300">R$ 5.000</span>
+                    <span className="text-lg font-bold text-slate-300">R$ 2.997</span>
                   </div>
 
                   <div className="flex items-center justify-between pb-4 border-b border-slate-700">
@@ -383,7 +383,7 @@ const StartAILanding = () => {
                         <p className="text-sm text-slate-400">Desenvolvimento customizado de prompts</p>
                       </div>
                     </div>
-                    <span className="text-lg font-bold text-slate-300">R$ 8.000</span>
+                    <span className="text-lg font-bold text-slate-300">R$ 5.000</span>
                   </div>
 
                   <div className="flex items-center justify-between pb-4 border-b border-slate-700">
@@ -405,18 +405,7 @@ const StartAILanding = () => {
                         <p className="text-sm text-slate-400">Recursos exclusivos para autonomia</p>
                       </div>
                     </div>
-                    <span className="text-lg font-bold text-slate-300">R$ 3.000</span>
-                  </div>
-
-                  <div className="flex items-center justify-between pb-4 border-b border-slate-700">
-                    <div className="flex items-start gap-3">
-                      <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                      <div>
-                        <p className="text-lg font-semibold text-slate-200">Suporte Pós-Implementação</p>
-                        <p className="text-sm text-slate-400">30 dias de acompanhamento</p>
-                      </div>
-                    </div>
-                    <span className="text-lg font-bold text-slate-300">R$ 2.000</span>
+                    <span className="text-lg font-bold text-slate-300">R$ 500</span>
                   </div>
 
                   <div className="flex items-center justify-between pt-6 pb-4">
@@ -424,7 +413,7 @@ const StartAILanding = () => {
                       <p className="text-2xl font-black text-white">Valor Total</p>
                       <p className="text-sm text-slate-400">Se contratado separadamente</p>
                     </div>
-                    <span className="text-3xl font-black text-slate-400 line-through">R$ 30.000</span>
+                    <span className="text-3xl font-black text-slate-400 line-through">R$ 20.497</span>
                   </div>
                 </div>
               </div>
