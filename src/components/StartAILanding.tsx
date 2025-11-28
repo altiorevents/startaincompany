@@ -428,7 +428,7 @@ const StartAILanding = () => {
                   R$ 10.000,00
                 </p>
                 <p className="text-green-400 text-xl font-bold">
-                  Economia de R$ 20.000 (67% de desconto)
+                  Economia de R$ 10.000 (50% de desconto)
                 </p>
               </div>
 
